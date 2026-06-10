@@ -3,13 +3,13 @@
 const TRANSLATIONS = {
     es: {
         'skip-link':          'Ir al contenido',
-        'header-h1':          'Creá tu Figurita del Mundial',
+        'header-h1':          'Crea tu Figurita del Mundial',
         'header-sub':         'Generador CROMO/FIGURITA con Inteligencia Artificial · Gratis · Alta Resolución',
         'howto-h2':           '¿Cómo crear tu cromo del Mundial?',
-        'howto-1':            '<strong>Elegi el mundial</strong> - Hay varios diseños para elegir',
-        'howto-2':            '<strong>Subí tu foto</strong> — Usá <a href="https://www.iloveimg.com/remove-background" target="_blank" rel="noopener noreferrer">IloveBGRemove</a> gratis para quitar el fondo y después subila acá',
-        'howto-3':            '<strong>Personalizá tu figurita</strong> — Elegí tu país, colores y escribí tu nombre y datos',
-        'howto-4':            '<strong>Descargá gratis</strong> — PNG en alta resolución listo para imprimir o compartir en redes',
+        'howto-1':            '<strong>Elige el mundial</strong> — Hay varios diseños para elegir',
+        'howto-2':            '<strong>Sube tu foto</strong> — Usa <a href="https://www.iloveimg.com/remove-background" target="_blank" rel="noopener noreferrer">IloveBGRemove</a> gratis para quitar el fondo y después súbela aquí',
+        'howto-3':            '<strong>Personaliza tu figurita</strong> — Elige tu país, colores y escribe tu nombre y datos',
+        'howto-4':            '<strong>Descarga gratis</strong> — PNG en alta resolución listo para imprimir o compartir en redes',
         'card-photo-h3':      'Foto del jugador',
         'removebg-tip':       '💡 Te recomendamos quitar el fondo gratis en <a href="https://www.iloveimg.com/remove-background" target="_blank" rel="noopener noreferrer">IloveBGRemove</a> antes de subir tu foto.',
         'upload-btn-span':    '📁 Subir foto',
@@ -33,9 +33,9 @@ const TRANSLATIONS = {
         'mpb-dl':             '⬇ Descargar',
         'faq-h2':             'Preguntas frecuentes',
         'faq-1-q':            '¿Es gratis el generador de figuritas del Mundial 2026?',
-        'faq-1-a':            'Sí, el generador es completamente gratuito. Podés crear y descargar tu figurita sin pagar nada.',
+        'faq-1-a':            'Sí, el generador es completamente gratuito. Puedes crear y descargar tu figurita sin pagar nada.',
         'faq-2-q':            '¿Qué ediciones del Mundial están disponibles?',
-        'faq-2-a':            'Podés crear figuritas del <strong>Mundial 2026</strong>, <strong>Qatar 2022</strong>, <strong>Rusia 2018</strong> y una versión <strong>Extra Card</strong> especial con diseño único.',
+        'faq-2-a':            'Puedes crear figuritas del <strong>Mundial 2026</strong>, <strong>Qatar 2022</strong>, <strong>Rusia 2018</strong> y una versión <strong>Extra Card</strong> especial con diseño único.',
         'faq-3-q':            '¿Cómo funciona la IA para quitar el fondo?',
         'faq-3-a':            'Usamos <strong>rembg</strong>, una tecnología de Inteligencia Artificial que detecta automáticamente la figura humana en tu foto y elimina el fondo en segundos, sin necesidad de editar manualmente.',
         'faq-4-q':            '¿Qué países puedo elegir para mi figurita?',
@@ -43,24 +43,24 @@ const TRANSLATIONS = {
         'faq-5-q':            '¿En qué resolución se descarga la figurita?',
         'faq-5-a':            'La figurita se descarga en alta resolución (hasta <strong>2895×3840 px</strong>), perfecta para imprimir o compartir en redes sociales.',
         'faq-6-q':            '¿Puedo crear la figurita desde el celular?',
-        'faq-6-a':            'Sí, el generador funciona perfectamente en dispositivos móviles. Podés subir tu foto, personalizarla y descargarla directo desde el teléfono.',
+        'faq-6-a':            'Sí, el generador funciona perfectamente en dispositivos móviles. Puedes subir tu foto, personalizarla y descargarla directamente desde el teléfono.',
         'footer-support-p1':  '¿Te gustó tu figurita?',
-        'footer-support-p2':  'Podés ayudarme con unos pesitos',
+        'footer-support-p2':  'Puedes apoyarme con una donación',
         'footer-privacy':     'Privacidad',
         'footer-terms':       'Términos',
         'footer-contact':     'Contacto',
         'footer-credits':     'Desarrollado con amor por <strong>Baltasar</strong>',
         'modal-title':        '¡Tu figurita está lista!',
-        'modal-sub':          'Compartila en tus redes o volvé a descargarla',
-        'modal-ig-tip':       '📲 La imagen se descargó. Abrí Instagram, creá una historia o post y subila desde tu galería.',
+        'modal-sub':          'Compártela en tus redes o vuelve a descargarla',
+        'modal-ig-tip':       '📲 La imagen se descargó. Abre Instagram, crea una historia o publicación y súbela desde tu galería.',
         'modal-download':     '⬇ Descargar de nuevo',
         'loading-edition':    'Cargando edición...',
         'group-label':        'Grupo',
         'no-results':         'Sin resultados',
         'group-code':         'Grupo',
-        'error-image':        'Error al generar la imagen. Intentá de nuevo.',
-        'share-twitter':      '¡Mirá mi figurita del {edition}! 🌍⚽ Creá la tuya gratis en mundialhub.vercel.app #Mundial2026 #Figurita',
-        'share-whatsapp':     '¡Mirá mi figurita del {edition}! 🌍⚽ https://mundialhub.vercel.app',
+        'error-image':        'Error al generar la imagen. Inténtalo de nuevo.',
+        'share-twitter':      '¡Mira mi figurita del {edition}! 🌍⚽ Crea la tuya gratis en mundialhub.vercel.app #Mundial2026 #Figurita',
+        'share-whatsapp':     '¡Mira mi figurita del {edition}! 🌍⚽ https://mundialhub.vercel.app',
         'tab-coming-soon':    'Próximamente',
         'tab-locked':         'BLOQUEADO',
         'q-bg-orange':        'Naranja',
@@ -343,7 +343,7 @@ function applyStaticTranslations() {
 
     const toggle = document.getElementById('langToggle');
     if (toggle) {
-        toggle.innerHTML = currentLang === 'es' ? '🇬🇧 EN' : '🇦🇷 ES';
+        toggle.innerHTML = currentLang === 'es' ? '🌐 EN' : '🌐 ES';
         toggle.setAttribute('aria-label', t('lang-toggle-label'));
     }
 }
@@ -495,8 +495,8 @@ function patchEditorI18n() {
 
     const origAlert = window.alert.bind(window);
     window.alert = function(msg) {
-        const esErr = 'Error al generar la imagen. Intentá de nuevo.';
-        if (msg === esErr) return origAlert(t('error-image'));
+        const errMsgs = ['Error generating the image. Please try again.', 'Error al generar la imagen. Intentá de nuevo.'];
+        if (errMsgs.includes(msg)) return origAlert(t('error-image'));
         return origAlert(msg);
     };
 
@@ -529,7 +529,7 @@ function createLangToggle() {
     btn.id        = 'langToggle';
     btn.className = 'lang-toggle';
     btn.setAttribute('aria-label', t('lang-toggle-label'));
-    btn.innerHTML = currentLang === 'es' ? '🇬🇧 EN' : '🇦🇷 ES';
+    btn.innerHTML = currentLang === 'es' ? '🌐 EN' : '🌐 ES';
 
     btn.addEventListener('click', () => {
         currentLang = currentLang === 'es' ? 'en' : 'es';
@@ -553,9 +553,9 @@ function injectLangToggleCSS() {
         #langToggle {
             display: block;
             margin: 0 0 10px auto;
-            background: #000;
-            color: #fff;
-            border: 2px solid #000;
+            background: rgba(255,255,255,0.06);
+            color: #e8eaf0;
+            border: 1px solid rgba(255,255,255,0.1);
             border-radius: 8px;
             padding: 6px 14px;
             font-family: 'Barlow', sans-serif;
@@ -563,13 +563,13 @@ function injectLangToggleCSS() {
             font-size: 14px;
             cursor: pointer;
             letter-spacing: .04em;
-            transition: background .15s, color .15s;
+            transition: background .15s, color .15s, border-color .15s;
             z-index: 10;
         }
         #langToggle:hover {
-            background: var(--theme-primary, #17277f);
-            border-color: var(--theme-primary, #17277f);
-            color: #fff;
+            background: var(--accent-cyan, #43c4c9);
+            border-color: var(--accent-cyan, #43c4c9);
+            color: #0a0e1a;
         }
     `;
     document.head.appendChild(style);

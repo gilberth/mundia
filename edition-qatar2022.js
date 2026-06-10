@@ -16,11 +16,11 @@ const EditionQatar2022 = {
         '--theme-accent':     '#F0A500',
         '--theme-accent2':    '#00A86B',
         '--theme-card-top':   '#5a0a28',
-        '--theme-tab-active': '#5a0a28',
-        '--theme-rainbow':    'linear-gradient(to right, #8B1A3A 0% 25%, #F0A500 25% 50%, #00A86B 50% 75%, #ffffff 75% 100%)',
-        '--theme-how-to-bg':  'linear-gradient(135deg, rgba(255,255,255,0.08), rgba(255,255,255,0)), linear-gradient(135deg, #5a0a28, #8B1A3A)',
-        '--theme-bg-body':    '#f5ede8',
-        '--theme-header-txt': '#5a0a28',
+        '--theme-tab-active': '#F0A500',
+        '--theme-rainbow':    'linear-gradient(90deg, #8B1A3A, #F0A500, #00A86B, #ffffff, #8B1A3A)',
+        '--theme-how-to-bg':  'rgba(90,10,40,0.3)',
+        '--theme-bg-body':    '#0d0810',
+        '--theme-header-txt': '#F0A500',
     },
 
     groups: {

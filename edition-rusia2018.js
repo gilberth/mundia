@@ -16,11 +16,11 @@ const EditionRusia2018 = {
         '--theme-accent':     '#c8102e',
         '--theme-accent2':    '#8b0000',
         '--theme-card-top':   '#7b1427',
-        '--theme-tab-active': '#7b1427',
-        '--theme-rainbow':    'linear-gradient(to right, #003087 0% 33%, #ffffff 33% 66%, #c8102e 66% 100%)',
-        '--theme-how-to-bg':  'linear-gradient(135deg, rgba(255,255,255,0.18), rgba(255,255,255,0)), linear-gradient(135deg, #7b1427, #c8102e)',
-        '--theme-bg-body':    '#f5f0ee',
-        '--theme-header-txt': '#7b1427',
+        '--theme-tab-active': '#c8102e',
+        '--theme-rainbow':    'linear-gradient(90deg, #003087, #ffffff, #c8102e, #003087)',
+        '--theme-how-to-bg':  'rgba(123,20,39,0.25)',
+        '--theme-bg-body':    '#0a0a12',
+        '--theme-header-txt': '#c8102e',
     },
 
     groups: {

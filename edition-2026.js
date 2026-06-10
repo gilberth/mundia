@@ -21,11 +21,11 @@ const Edition2026 = {
         '--theme-accent':     '#43c4c9',
         '--theme-accent2':    '#e5ff00',
         '--theme-card-top':   '#17277f',
-        '--theme-tab-active': '#17277f',
-        '--theme-rainbow':    'linear-gradient(to right, #2651ff 0% 16.6%, #ea0001 16.6% 33.2%, #e5ff00 33.2% 49.8%, #6d00fc 49.8% 66.4%, #019afa 66.4% 83%, #00c93b 83% 100%)',
-        '--theme-how-to-bg':  'linear-gradient(135deg, rgba(255,255,255,0.28), rgba(255,255,255,0)), linear-gradient(135deg, #e5ff00, #019afa)',
-        '--theme-bg-body':    '#ffffff',
-        '--theme-header-txt': '#000000',
+        '--theme-tab-active': '#43c4c9',
+        '--theme-rainbow':    'linear-gradient(90deg, #2651ff, #ea0001, #e5ff00, #6d00fc, #019afa, #00c93b, #2651ff)',
+        '--theme-how-to-bg':  'rgba(255,255,255,0.04)',
+        '--theme-bg-body':    '#0a0e1a',
+        '--theme-header-txt': '#e8eaf0',
     },
 
     groups: {

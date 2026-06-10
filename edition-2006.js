@@ -16,11 +16,11 @@ const Edition2006 = {
         '--theme-accent':     '#c8a800',
         '--theme-accent2':    '#e63027',
         '--theme-card-top':   '#1a3c6e',
-        '--theme-tab-active': '#1a3c6e',
-        '--theme-rainbow':    'linear-gradient(to right, #000000 0% 33%, #c8a800 33% 66%, #e63027 66% 100%)',
-        '--theme-how-to-bg':  'linear-gradient(135deg, rgba(255,255,255,0.18), rgba(255,255,255,0)), linear-gradient(135deg, #1a3c6e, #e63027)',
-        '--theme-bg-body':    '#f0f2f8',
-        '--theme-header-txt': '#1a3c6e',
+        '--theme-tab-active': '#c8a800',
+        '--theme-rainbow':    'linear-gradient(90deg, #000000, #c8a800, #e63027, #000000)',
+        '--theme-how-to-bg':  'rgba(26,60,110,0.25)',
+        '--theme-bg-body':    '#080a10',
+        '--theme-header-txt': '#c8a800',
     },
 
     groups: {
